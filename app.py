@@ -28,10 +28,14 @@ st.set_page_config(page_title="EmotiSense AI", page_icon="🧠", layout="wide")
 # ── CSS ──────────────────────────────────────────────────────────
 st.markdown("""
 <style>
-#MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
-div[data-testid="viewerBadge"] {visibility: hidden;}
-button[title="View source code"] {visibility: hidden;}
+/* Complete White-Label Streamlit Override */
+#MainMenu {visibility: hidden; display: none !important;}
+footer {visibility: hidden; display: none !important;}
+header {visibility: hidden; display: none !important;}
+div[data-testid="stDecoration"] {display: none !important;}
+div[data-testid="viewerBadge"] {display: none !important;}
+.viewerBadge {display: none !important;}
+button[title="View source code"] {display: none !important;}
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Fira+Code:wght@400;600&display=swap');
 *,[class*="css"]{font-family:'Inter',sans-serif!important;}
 
