@@ -1,4 +1,4 @@
-# ================================================================
+# ===============================================================
 # PROJECT 1 (FIXED): Emotion Intelligence — Streamlit App
 # Works with BOTH methods:
 #   - HuggingFace pre-trained pipeline (if saved)
